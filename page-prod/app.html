@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; sript-src 'self'">
+        
+        <link rel='stylesheet' href="app.css"/>
+    </head>
+    <body>
+        <a href="../index.html"><img id="img-back" src="../sloga/back.png" alt="botão voltar"/></a>
+        
+        <div id="view-search-app">
+            <img id="img-logo-view" src="../sloga/logo42.png" alt="logo_img"/>
+            <div>
+                <input id="search-produto" autofocus type="text" list='res'/>
+                <button id='btn-search'>Buscar</button>
+            </div>
+            <datalist id='res'></datalist>
+        </div>
+        
+        <div id='view-equivalente'>
+            <label id='title-equivalente'></label>
+            <div id='list_eq' >
+
+            </div>
+        </div>
+        
+        <script  src="./script.js" ></script>
+    </body>
+</html>

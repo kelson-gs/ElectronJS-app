@@ -1,0 +1,44 @@
+*{
+    background-color: #11213b;
+}
+
+#animation-slogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_anima{
+    width: 780px;
+    height: auto;
+    margin-top: 10px;
+}
+
+#title-logo{
+    font-size: 25pt;
+    margin-top: -50px;
+    color: #ffa310ec;
+    font-weight: 700;
+}
+
+#btn-iniciar{
+    text-decoration: none;
+    font-size: 16pt;
+    /*border: 2px solid #ffa310;*/
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.596);
+    background: white;
+    color: #11213b;
+    font-weight: 700;
+    margin-top: 50px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+
+#btn-iniciar:hover{
+    background: #ffa310ec;
+    color: white;
+    transition: 0.5s;
+}
